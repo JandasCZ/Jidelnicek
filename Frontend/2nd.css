@@ -1,0 +1,82 @@
+body {
+    background-color: plum;
+    color: darkorchid;
+    margin: 0;
+    font-size: 20px;
+}
+.menu-celek{
+    display: flex;
+    height: 4em;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: darkorchid;
+    color: plum;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-buttons{
+    margin: 0.5em;
+}
+.menu-buttons:hover {
+    color: mediumblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pridatjidlo-komplet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 8px 0px 8px;
+    font-size: 1em;
+}
+.pridatjidlo-nadpis{
+    color: fuchsia;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-decoration: underline;
+    display: flex;
+}
+.jidelnicek-policka{
+    flex-direction: row;
+    display: flex;
+}
+.jidelnicek-prvek{
+    justify-content: flex-start;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 14px;
+    width: 19rem;
+    display:flex;
+}
+p{
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color:plum;
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pridat-jidlo{
+    display: flex;
+    font-size: 1.25em;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    height: max-content;
+}
+.funguj{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#pridat{
+    width: 40%;
+}
+#pridat-jidlo-button{
+    display: flex;
+    justify-content: center;
+}
